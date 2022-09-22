@@ -10,13 +10,34 @@ h1 {
     margin-bottom: 0;
 
 }
-
-.weather-app {
-    max-width: 600px;
+.weather-app-wrapper {
+  max-width: 600px;
     margin: 30px auto;
+}
+.weather-app {
+  
     padding: 20px;
     border: 1px solid grey;
     border-radius: 5px;
+}
+.overview {
+    margin-bottom: 20px;
+}
+.weather-temperature img {
+    margin-right: 10px;
+    height: 64px;
+    width: 64px;
+}
+.weather-temperature strong {
+    color: #272142;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1; 
+}
+.weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+   
 }
 ul {
     margin: 0;
@@ -29,5 +50,4 @@ li {
     padding: 0;
     font-size: 16px;
     font-weight: 100;
-
 }

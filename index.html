@@ -13,7 +13,9 @@
 
 <body>
     <div class="container">
-        <div class="weather-app">
+        <div class="weather-app-wrapper">
+            <div class="weather-app">
+                <div class="overview">
             <h1>Lisabon</h1>
             <ul>
                 <li>
@@ -23,10 +25,15 @@
                     Clear
                 </li>
             </ul>
+                </div>
+
             <div class="row">
                 <div class="col-md-6">
+                    <div class="d-flex weather-temperature">
                     <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="" />
-                    12°C | °F
+                    <strong>12</strong>
+                    <span class="units">°C |<a href="#"> °F </a></span>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <ul>
@@ -42,12 +49,11 @@
                     </ul>
                 </div>
             </div>
-            <small>
-                <a href="https://github.com/bblown/vanilla-weather-app" target="blank">Open-source code</a>
-                by kateryna</small>
+            </div>
+        <small>
+            <a href="https://github.com/bblown/vanilla-weather-app" target="blank">Open-source code</a>
+            by kateryna</small>
         </div>
-        
-        
         
         </div>
     <script src="app.js"></script>
