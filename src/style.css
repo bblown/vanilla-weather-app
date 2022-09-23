@@ -52,3 +52,15 @@ li {
     font-weight: 100;
     text-transform: capitalize;
 }
+
+a:link {
+    text-decoration: none;
+}
+.weather-temperature .active {
+    color: #272142;
+    cursor: default;
+
+}
+.weather-temperature .active:hover {
+text-decoration: none;
+}
