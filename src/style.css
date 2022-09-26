@@ -32,7 +32,7 @@ h1 {
     color: #272142;
     font-size: 64px;
     font-weight: 400;
-    line-height: 1; 
+ 
 }
 .weather-temperature .units {
     position: relative;
@@ -63,4 +63,20 @@ a:link {
 }
 .weather-temperature .active:hover {
 text-decoration: none;
+}
+.weather-forecast {
+    margin-top: 20px;
+    text-align:center;
+
+}
+.weather-forecast-date {
+    font-size: 16px;
+    color:#272142;
+    opacity:0.6;
+}
+.weather-forecast-temperature {
+    font-size: 13px;
+}
+.weather-forecast-temperature-min {
+    opacity:0.6;
 }
